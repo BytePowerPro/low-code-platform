@@ -1,4 +1,4 @@
-# low-code-platform
+# code
 
 ## Project setup
 ```
