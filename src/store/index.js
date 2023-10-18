@@ -65,7 +65,7 @@ const mutations = {
   /* 高亮选中元素(目前只能改个颜色) */
   highlight(state) {
     state.elementBuffer.style['color'] = '#000000'; //本不需要,但是为了能有效果展示需要
-    state.elementBuffer.style['border'] = '2px solid #FF0000';
+    state.elementBuffer.style['border'] = '1px solid #FF0000';
   },
   clearHighLight(state){
     state.elementBuffer.style['color'] = '#010101'; //本不需要,但是为了能有效果展示需要
